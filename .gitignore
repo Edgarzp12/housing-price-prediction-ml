@@ -2,5 +2,5 @@ __pycache__/
 .ipynb_checkpoints/
 *.pyc
 .venv/
-venv/
-env/
+echo "notebooks/Weights/" >> .gitignore
+echo "*.pt" >> .gitignore
