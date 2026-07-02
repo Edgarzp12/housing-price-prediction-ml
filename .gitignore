@@ -1,6 +1,24 @@
+# Python
 __pycache__/
-.ipynb_checkpoints/
-*.pyc
+*.py[cod]
+*.pyo
+.env
+venv/
 .venv/
-echo "notebooks/Weights/" >> .gitignore
-echo "*.pt" >> .gitignore
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Generated runtime outputs — do not commit
+notebooks/Plots/
+notebooks/Weights/
+notebooks/Results_summary.csv
+Plots/
+Weights/
+Results_summary.csv
+*.pt
+
+# OS
+.DS_Store
+Thumbs.db
